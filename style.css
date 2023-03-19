@@ -1,0 +1,42 @@
+/*usage of navbar  */
+nav{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   padding:20px 15px;
+   box-shadow:2px 2px 5px #ccc;
+}
+nav> .left-icon-container{
+    padding-left:30px;
+    text-transform:capitalize;
+    font-weight:300px;
+
+}
+nav> .right-icon-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+nav> .right-icon-container>a{
+    margin-right:20px;
+    font-size:1.1pc;
+
+}
+nav> .right-icon-container>a:hover{
+    color:grey;
+    opacity:1.0;
+
+
+}
+.card-container{
+    margin-top:32px;
+    background-image:contain;
+    grid-template-columns:repeat(3,1fr);
+
+}
+.card>img{
+    max-width:400px;
+    margin-left:20px;
+    text-align:center;
+
+}
